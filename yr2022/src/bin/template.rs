@@ -5,10 +5,10 @@ fn main() {
     part_two(&input);
 }
 
-fn part_one(input: &str) {
+fn part_one(_input: &str) {
     // println!("Part one: {}");
 }
 
-fn part_two(input: &str) {
+fn part_two(_input: &str) {
     // println!("Part two: {}");
 }
