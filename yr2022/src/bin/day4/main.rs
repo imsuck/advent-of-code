@@ -31,9 +31,7 @@ fn part_two(input: &str) {
         let (elf1_start, elf1_end) = get_range(elf1);
         let (elf2_start, elf2_end) = get_range(elf2);
 
-        if elf2_start <= elf1_end && elf1_start <= elf2_end
-            || elf1_start <= elf2_end && elf2_start <= elf1_end
-        {
+        if elf2_start <= elf1_end && elf1_start <= elf2_end {
             count += 1;
         }
     }
